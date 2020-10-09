@@ -24,6 +24,8 @@
   "devDependencies": {
     "chromedriver": "^85.0.0",
     "geckodriver": "^1.19.1",
-    "nightwatch": "^1.4.2"
+    "nightwatch": "^1.4.2",
+    "nightwatch-saucelabs-endsauce": "^1.0.2",
+    "saucelabs": "^4.5.0"
   }
 }
