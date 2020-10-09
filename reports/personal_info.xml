@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="personal_info"
+    errors="1" failures="0" hostname="" id="" package="personal_info" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session
+       at endReadableNT (_stream_readable.js:1183:12)
+       at processTicksAndRejections (internal/process/task_queues.js:80:21)
+  Error: An error occurred while retrieving a new session
+       at endReadableNT (_stream_readable.js:1183:12)
+       at processTicksAndRejections (internal/process/task_queues.js:80:21)
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Edit Personal Info Successfully" classname="personal_info">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

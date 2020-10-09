@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="personal_info"
+    errors="1" failures="1" hostname="" id="" package="personal_info" skipped="0"
+    tests="1" time="86.43" timestamp="">
+  
+    <testcase name="Edit Personal Info Successfully" classname="personal_info" time="86.43" assertions="23">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;[data-test-id=&#39;toast&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5631ms)">    at Object.checkToastMessage (/Users/jeannetrovao/Documents/Automation Training/lambdatest/commands/checkToastMessage.js:4:10)
+    at processImmediate (internal/timers.js:456:21)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;[data-test-id=&#39;toast&#39;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5631ms)[0m" type="error"><![CDATA[
+        at Object.checkToastMessage (/Users/jeannetrovao/Documents/Automation Training/lambdatest/commands/checkToastMessage.js:4:10)
+    at processImmediate (internal/timers.js:456:21)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;Element [name=@btnUpdate]&gt;:   (Session info: chrome=71.0.3578.80),  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=71.0.3578.80)&#34;,&#34;  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

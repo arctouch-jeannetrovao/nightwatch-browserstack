@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="2">
+
+  <testsuite name="scheduler_test"
+    errors="0" failures="2" hostname="" id="" package="scheduler_test" skipped="0"
+    tests="2" time="156.2" timestamp="">
+  
+    <testcase name="Scheduling Test - Existing patient new schedule" classname="scheduler_test" time="74.81" assertions="26">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;[data-test-id=&#39;rowClick0&#39;]&gt; contains text &#39;marc+coretestspeed@evisit.com&#39; in 5000ms - expected &#34;contains text &#39;marc+coretestspeed@evisit.com&#39;&#34; but got: &#34;does not contain &#39;marc+coretestspeed@evisit.com&#39;&#34; (5479ms)">    at Object.&lt;anonymous&gt; (/Users/jeannetrovao/Documents/Automation Training/lambdatest/pages/provider/schedulerPage.js:160:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Scheduling Test - New patient new schedule" classname="scheduler_test" time="81.40" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;.eVisitAppListItem:nth-child(2) .eVisitAppPopupMenuItem:nth-child(1)&gt; text to contain: &#34;Automation&#34; in 10000ms - element was not found - expected &#34;contain &#39;Automation&#39;&#34; but got: &#34;not present&#34; (10620ms)">    at Page.selectProviderBySearch (/Users/jeannetrovao/Documents/Automation Training/lambdatest/pages/provider/schedulerPage.js:270:21)
+    at Page.scheduleNewPatient (/Users/jeannetrovao/Documents/Automation Training/lambdatest/pages/provider/schedulerPage.js:175:14)
+    at Object.Scheduling Test - New patient new schedule (/Users/jeannetrovao/Documents/Automation Training/lambdatest/tests/provider/scheduler_test.js:20:23)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

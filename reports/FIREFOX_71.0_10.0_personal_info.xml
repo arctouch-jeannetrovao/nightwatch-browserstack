@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="personal_info"
+    errors="0" failures="1" hostname="" id="" package="personal_info" skipped="0"
+    tests="1" time="12.14" timestamp="">
+  
+    <testcase name="Edit Personal Info Successfully" classname="personal_info" time="12.14" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-test-id=&#39;email&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5850ms)">    at Page.patientLogin (/Users/jeannetrovao/Documents/Automation Training/lambdatest/pages/loginPage.js:34:14)
+    at Page.accessPersonalInfoPage (/Users/jeannetrovao/Documents/Automation Training/lambdatest/pages/patient/my_account/personalInfoPage.js:30:18)
+    at Object.Edit Personal Info Successfully (/Users/jeannetrovao/Documents/Automation Training/lambdatest/tests/patient/my_account/personal_info.js:10:26)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

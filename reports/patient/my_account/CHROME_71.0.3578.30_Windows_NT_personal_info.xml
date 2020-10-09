@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="patient.my_account.personal_info"
+    errors="1" failures="1" hostname="" id="" package="my_account" skipped="0"
+    tests="1" time="84.19" timestamp="">
+  
+    <testcase name="Edit Personal Info Successfully" classname="patient.my_account.personal_info" time="84.19" assertions="25">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;[data-test-id=&#39;toast&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5370ms)">    at Object.checkToastMessage (/Users/felipeschiquetti/Desktop/eVisit-nightwatch/lambdatest/commands/checkToastMessage.js:4:10)
+    at processImmediate (internal/timers.js:439:21)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;[data-test-id=&#39;toast&#39;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5370ms)[0m" type="error"><![CDATA[
+        at Object.checkToastMessage (/Users/felipeschiquetti/Desktop/eVisit-nightwatch/lambdatest/commands/checkToastMessage.js:4:10)
+    at processImmediate (internal/timers.js:439:21)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;Element [name=@btnUpdate]&gt;:   (Session info: chrome=71.0.3578.30),  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.14393 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=71.0.3578.30)&#34;,&#34;  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.14393 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at runMicrotasks (&lt;anonymous&gt;)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

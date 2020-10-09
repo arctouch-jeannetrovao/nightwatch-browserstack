@@ -1,0 +1,95 @@
+{
+    "src_folders" : ["tests/provider"],
+    "output_folder" : "reports",
+    "page_objects_path" : "pages",
+    "globals_path" : "",
+    "custom_commands_path": ["./commands"],
+  
+    "selenium" : {
+      "start_process" : false,
+      "server_path" : "",
+      "log_path" : "",
+      "host" : "hub.lambdatest.com",
+      "port" : 80,
+      "cli_args" : {
+        "webdriver.chrome.driver" : "",
+        "webdriver.ie.driver" : "",
+        "webdriver.firefox.profile" : ""
+      }
+    },
+  
+    "test_workers" : {"enabled" : true, "workers" : "auto"},
+  
+    "test_settings" : {
+      "default" : {
+        "request_timeout_options": {
+          "timeout": 1000000
+        },
+        "launch_url" : "https://lambdatest.com",
+        "selenium_port"  : 80,
+        "selenium_host"  : "hub.lambdatest.com",
+        "silent": true,
+        "screenshots" : {
+          "enabled" : true,
+          "path" : ""
+        },
+        "username" : "jeannetrovao@gmail.com",
+        "access_key" : "WUTpHDKTT8nzbuKSdqB6lp1kv96T5UItswoq8GuOdvAjQiQajk",
+  
+        "skip_testcases_on_fail": false,
+
+
+        "globals": {
+            "env": "release",
+            "handle": "omega",
+            "email": "taylor+o14@evisit.com",
+            "password":"Patient123!",
+            "providerEmail": "taylor+provider@evisit.com",
+            "providerPassword": "provider123"
+        },
+  
+        "desiredCapabilities": {
+          "build":"Teste da Jeanne",
+          "visual":false,
+          "video":true,
+          "console":true,
+          "network":false,
+          "tunnel":false
+        }
+      },
+  
+      "chrome": {
+        "desiredCapabilities": {
+          "platform": "macos 10.14",
+          "browserName": "chrome",
+          "version": "85.0",
+          "chromeOptions" : {
+            "prefs": {
+                "profile.managed_default_content_settings.geolocation" : 1
+              }
+          }
+        }
+      },
+      "safari" : {
+        "desiredCapabilities": {
+          "platform": "macos 10.13",
+          "browserName": "safari",
+          "version": "11.0"
+        }
+  },
+  "firefox" : {
+    "desiredCapabilities": {
+      "platform": "win10",
+      "browserName": "firefox",
+      "version": "60"
+    }
+  },
+      "edge" : {
+        "desiredCapabilities": {
+          "platform": "Windows 10",
+          "browserName": "MicrosoftEdge",
+          "version": "17.0"
+        }
+      }
+    }
+  }
