@@ -3,7 +3,7 @@
     "tests"
   ],
   "custom_commands_path": [
-    "./node_modules/nightwatch-saucelabs-endsauce/commands"
+    "./commands"
   ],
   "page_objects_path": "./pages",
   "test_settings": {
